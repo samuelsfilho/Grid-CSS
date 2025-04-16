@@ -10,7 +10,10 @@ body {
     height: 100vh;
     gap: 10px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-image: url(./img/2c68e1a8-e8d5-4bcb-ae20-a50731c0a868.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   header {
@@ -20,12 +23,12 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 1.8em;
+    opacity: 80%;
   }
 
   main {
     grid-column: 1 / -1;
     grid-row: 2 / 6;
-    background-color: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
@@ -42,10 +45,11 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+   
   }
 
   .benefit {
-    background-color: #e2e2e2;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
     border-radius: 8px;
   }
